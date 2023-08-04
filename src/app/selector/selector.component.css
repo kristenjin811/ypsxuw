@@ -1,0 +1,21 @@
+.title {
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+div.item-list {
+  margin-top: 10px;
+}
+
+div.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+div.item span {
+  margin-left: 10px;
+}

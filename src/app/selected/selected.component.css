@@ -1,0 +1,14 @@
+.title {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+span {
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}

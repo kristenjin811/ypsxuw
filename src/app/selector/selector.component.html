@@ -1,0 +1,8 @@
+<input type="checkbox" [(ngModel)]="selectAll" (change)="toggleSelectAll()" />
+<span class="title">Select all</span>
+
+
+<div *ngFor="let item of itemlist">
+  <input type="checkbox" [(ngModel)]="item.checked" (change)="updateSelectedItems()" />
+  <span>{{ item.name }}</span>
+</div>
