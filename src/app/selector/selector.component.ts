@@ -34,7 +34,4 @@ export class SelectorComponent {
     const selectedItems = this.itemlist.filter((item) => item.checked);
     this.selectedItemsChange.emit(selectedItems);
   }
-
-
-
 }
